@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Master>
+  <MasterId>30da7531-c524-49a8-ac86-ebfbeb721956</MasterId>
+  <Id>A009-2016</Id>
+  <Title>ROBO RESPECTO DE VEHICULO DE MOTOR</Title>
+  <Department />
+  <IsSealed>false</IsSealed>
+  <Sessions>
+    <Session>
+      <SessionId>a13c5a91-bc6a-4b81-b604-9ef1a2775d26</SessionId>
+      <StartDate>2016-12-22T22:30:04</StartDate>
+      <EndDate>2016-12-22T22:34:25</EndDate>
+      <Location>Sala 1 San José</Location>
+      <Type>Orden de Cateo</Type>
+      <Medias>
+        <Media>
+          <Path>.\A009-2016</Path>
+          <DeviceId>00000000-0000-0000-0000-000000000000</DeviceId>
+          <Height>0</Height>
+          <Width>0</Width>
+          <Incomplete>false</Incomplete>
+        </Media>
+      </Medias>
+      <MasterGroups>
+        <MasterGroup>
+          <MasterGroupId>436209f8-6910-4960-8b1e-177289d91d39</MasterGroupId>
+          <Name>Ministerio Público</Name>
+          <Order>2</Order>
+          <IsLoggable>true</IsLoggable>
+          <Parties>
+            <Party>
+              <PartyId>6b879312-18ae-45b2-9057-35142aa61a30</PartyId>
+              <FirstName></FirstName>
+              <LastName>EDUARDO ROMERO LOPEZ</LastName>
+            </Party>
+          </Parties>
+        </MasterGroup>
+        <MasterGroup>
+          <MasterGroupId>a350c174-e6ba-467a-bef0-e20e428b653a</MasterGroupId>
+          <Name>Juez</Name>
+          <Order>7</Order>
+          <IsLoggable>false</IsLoggable>
+          <Parties>
+            <Party>
+              <PartyId>f7717673-5835-49fc-b2f1-1474796f6c73</PartyId>
+              <FirstName></FirstName>
+              <LastName>DANIEL ALEJANDRO JIMENEZ GARCIA</LastName>
+            </Party>
+          </Parties>
+        </MasterGroup>
+        <MasterGroup>
+          <MasterGroupId>b9019668-eebf-4141-9ef6-4c86996606f3</MasterGroupId>
+          <Name>Encargado de Sala</Name>
+          <Order>8</Order>
+          <IsLoggable>false</IsLoggable>
+          <Parties>
+            <Party>
+              <PartyId>e0f6c891-6bc9-4430-a1fb-48e065551663</PartyId>
+              <FirstName></FirstName>
+              <LastName>MARIA DE JESUS CRUZ MEDINA</LastName>
+            </Party>
+          </Parties>
+        </MasterGroup>
+      </MasterGroups>
+      <Events>
+        <Event>
+          <EventId>e089d591-11e3-4254-830a-6bd3f9ba3d2a</EventId>
+          <Name>Session Started</Name>
+          <TimeStamp>2016-12-22T22:30:05</TimeStamp>
+          <Type>Master Started</Type>
+          <TypeId>f850fa65-4ef4-421a-9241-e6e5937a4d8d</TypeId>
+          <TypeCategoryId>27a82cbe-4618-4259-8053-4e8df9be2431</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>4ad6dc05-6d65-4fd5-bc71-db1550c98141</EventId>
+          <Name>juez declara abierta la audiencia</Name>
+          <TimeStamp>2016-12-22T22:31:10</TimeStamp>
+          <Type>User</Type>
+          <TypeId>024a5218-f6a1-4864-996b-1159b352c49f</TypeId>
+          <TypeCategoryId>e85c14d1-c298-4687-a3c9-d63b9fed7d75</TypeCategoryId>
+          <IsSystemEvent>false</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>7a76b37b-c723-40e8-9434-0ec9d32d1f94</EventId>
+          <Name>individualización del MP</Name>
+          <TimeStamp>2016-12-22T22:31:19</TimeStamp>
+          <Type>User</Type>
+          <TypeId>024a5218-f6a1-4864-996b-1159b352c49f</TypeId>
+          <TypeCategoryId>e85c14d1-c298-4687-a3c9-d63b9fed7d75</TypeCategoryId>
+          <IsSystemEvent>false</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>4a1dd160-ec8e-4421-9534-2d4a4ec61a13</EventId>
+          <Name>MP SOLICITA SE LIBRE ORDEN DE CATEO Y EXPONE SU PETICIÓN</Name>
+          <TimeStamp>2016-12-22T22:31:51</TimeStamp>
+          <Type>User</Type>
+          <TypeId>024a5218-f6a1-4864-996b-1159b352c49f</TypeId>
+          <TypeCategoryId>e85c14d1-c298-4687-a3c9-d63b9fed7d75</TypeCategoryId>
+          <IsSystemEvent>false</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>05d9d821-f6ee-4822-9d80-214b7f6ad438</EventId>
+          <Name>JUEZ DECRETA UN RECESO DE 5 MINUTOS</Name>
+          <TimeStamp>2016-12-22T22:33:44</TimeStamp>
+          <Type>User</Type>
+          <TypeId>024a5218-f6a1-4864-996b-1159b352c49f</TypeId>
+          <TypeCategoryId>e85c14d1-c298-4687-a3c9-d63b9fed7d75</TypeCategoryId>
+          <IsSystemEvent>false</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>76e5b7fc-0916-4961-8f85-bd011ea12715</EventId>
+          <Name>Session Ended</Name>
+          <TimeStamp>2016-12-22T22:34:25</TimeStamp>
+          <Type>Master Stopped</Type>
+          <TypeId>0c6d11bb-68f9-47f3-853d-926119fee201</TypeId>
+          <TypeCategoryId>27a82cbe-4618-4259-8053-4e8df9be2431</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+      </Events>
+    </Session>
+  </Sessions>
+  <Exhibits />
+</Master>

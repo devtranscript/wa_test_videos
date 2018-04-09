@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Master>
+  <MasterId>8651ab12-66f8-4b4f-8534-13579fdc4c23</MasterId>
+  <Id>2017-04-04 16.13</Id>
+  <Title></Title>
+  <Department />
+  <IsSealed>false</IsSealed>
+  <Sessions>
+    <Session>
+      <SessionId>1aa34b39-cfb9-4c80-b465-1944e176090d</SessionId>
+      <StartDate>2017-04-04T16:13:07</StartDate>
+      <EndDate>2017-04-04T16:18:05</EndDate>
+      <Location>hecelchakan</Location>
+      <Type />
+      <Medias>
+        <Media>
+          <Path>.\2017-04-04 16.13</Path>
+          <DeviceId>00000000-0000-0000-0000-000000000000</DeviceId>
+          <Height>0</Height>
+          <Width>0</Width>
+          <Incomplete>false</Incomplete>
+        </Media>
+      </Medias>
+      <MasterGroups />
+      <Events>
+        <Event>
+          <EventId>383751df-d1cb-4bc3-bf82-2903180bd65e</EventId>
+          <Name>Session Started</Name>
+          <TimeStamp>2017-04-04T16:13:11</TimeStamp>
+          <Type>Master Started</Type>
+          <TypeId>f850fa65-4ef4-421a-9241-e6e5937a4d8d</TypeId>
+          <TypeCategoryId>27a82cbe-4618-4259-8053-4e8df9be2431</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>32070bb4-2939-42ea-9c3a-f202d30a5405</EventId>
+          <Name>Evidencias Activated</Name>
+          <TimeStamp>2017-04-04T16:15:07</TimeStamp>
+          <Type>Auxiliary Mode Activate</Type>
+          <TypeId>32a90923-867d-4bbe-bc00-479a998b398b</TypeId>
+          <TypeCategoryId>c5270cf0-6969-434a-af39-d16fb400bfc8</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>3f79824a-ecaf-4163-9295-c5845a894e44</EventId>
+          <Name>Evidencias Deactivated</Name>
+          <TimeStamp>2017-04-04T16:17:55</TimeStamp>
+          <Type>Auxiliary Mode Deactivate</Type>
+          <TypeId>9be5950a-67e4-4437-9016-2fa16e77e3b4</TypeId>
+          <TypeCategoryId>c5270cf0-6969-434a-af39-d16fb400bfc8</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+        <Event>
+          <EventId>e14205f3-5440-426f-8b14-348e6b7ac56e</EventId>
+          <Name>Session Ended</Name>
+          <TimeStamp>2017-04-04T16:18:05</TimeStamp>
+          <Type>Master Stopped</Type>
+          <TypeId>0c6d11bb-68f9-47f3-853d-926119fee201</TypeId>
+          <TypeCategoryId>27a82cbe-4618-4259-8053-4e8df9be2431</TypeCategoryId>
+          <IsSystemEvent>true</IsSystemEvent>
+          <IsPrivate>false</IsPrivate>
+          <Identifier />
+          <EventNotes />
+        </Event>
+      </Events>
+    </Session>
+  </Sessions>
+  <Exhibits />
+</Master>

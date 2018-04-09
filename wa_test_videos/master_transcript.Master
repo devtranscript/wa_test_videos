@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master_transcript.master.cs" Inherits="wa_transcript.master_transcript" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <!-- Bootstrap -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Styles/styles.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    
+
+    <link rel="shortcut icon" href="img/video_test.png" type="image/png" />
+
+    <title>transcript</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <script>
+        function CheckOne(obj) {
+            var grid = obj.parentNode.parentNode.parentNode;
+            var inputs = grid.getElementsByTagName("input");
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type == "checkbox") {
+                    if (obj.checked && inputs[i] != obj && inputs[i].checked) {
+                        inputs[i].checked = false;
+                    }
+                }
+            }
+        }
+    </script>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <br />
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <asp:Image CssClass="img-responsive" ID="Image1" runat="server" ImageUrl="~/img/Transcript-100.jpg" Width="128" Height="64" />
+                    <h4>Prueba de Concepto</h4>
+                    <p>
+                        Soporte
+                        <br />
+                      <%--  Celular: (044) 55.84.84.34.92
+                        <br />--%>
+                        transcriptsoporte@gmail.com y soportetranscript@gmail.com
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
